@@ -1,20 +1,18 @@
 body {
   font-family: "Playfair Display";
   padding: 10vh 1rem;
-  background-color: darken(#00293C, 5%);
-  color: #F1F3CE;
-}
+  background-color: #001823;
+  color: #F1F3CE; }
+
+.test {
+  background: #000; }
 
 a {
-  color: lighten(#1E656D, 10%);
+  color: #298a95;
   border-bottom: 1px solid #F62A00;
-  text-decoration: none;
-
-  &:focus,
-  &:hover {
-    color: #F1F3CE;
-  }
-}
+  text-decoration: none; }
+  a:focus, a:hover {
+    color: #F1F3CE; }
 
 .hi {
   max-width: 70rem;
@@ -22,13 +20,11 @@ a {
   padding: 1rem 2rem;
   font-size: 2rem;
   line-height: 3.5rem;
-  text-align: left;
-}
+  text-align: left; }
 
 .updated {
   font-size: 1rem;
   color: #1E656D;
   margin: 0 auto;
   padding: 1rem 2rem;
-  max-width: 70rem;
-}
+  max-width: 70rem; }
