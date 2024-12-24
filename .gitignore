@@ -2,7 +2,6 @@
 .cache
 .DS_Store
 .sass-cache
-build
 vendor
 
 _site/*
