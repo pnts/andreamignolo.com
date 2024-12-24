@@ -1,0 +1,27 @@
+body {
+  font-family: "Playfair Display";
+  padding: 10vh 1rem;
+  background-color: #001823;
+  color: #F1F3CE; }
+
+a {
+  color: #298a95;
+  border-bottom: 1px solid #F62A00;
+  text-decoration: none; }
+  a:focus, a:hover {
+    color: #F1F3CE; }
+
+.hi {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 1rem .25rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: left; }
+
+.updated {
+  font-size: 1rem;
+  color: #1E656D;
+  margin: 0 auto;
+  padding: 1rem .25rem;
+  max-width: 68rem; }
