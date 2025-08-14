@@ -102,37 +102,6 @@
   font-style: italic;
   font-weight: 700; }
 
-@font-face {
-  src: url("/fonts/BradleyDJR-Regular.woff2") format("woff2"), url("/fonts/BradleyDJR-Regular.woff") format("woff");
-  font-family: 'BradleyDJRWeb';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/BradleyDJR-Display.woff2") format("woff2"), url("/fonts/BradleyDJR-Display.woff") format("woff");
-  font-family: 'BradleyDJRWeb-Display';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/BradleyDJR-Small.woff2") format("woff2"), url("/fonts/BradleyDJR-Small.woff") format("woff");
-  font-family: 'BradleyDJRWeb-Small';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/BradleyDJR-Micro.woff2") format("woff2"), url("/fonts/BradleyDJR-Micro.woff") format("woff");
-  font-family: 'BradleyDJRWeb-Micro';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/BradleyDJRVariable-VF.woff2") format("woff2"), url("/fonts/BradleyDJRVariable-VF.woff") format("woff");
-  font-family: 'BradleyDJRVariableWeb';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 6pt 60pt; }
-
 h1, h2, h3 {
   line-height: 2.7rem; }
 
