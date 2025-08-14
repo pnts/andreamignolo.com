@@ -1,34 +1,140 @@
+@import 'partials/fonts';
+@import 'partials/scaffolding';
+@import 'partials/normalize';
+
 body {
-  font-family: "Playfair Display";
-  padding: 10vh 1rem;
-  background-color: darken(#00293C, 5%);
-  color: #F1F3CE;
+  //font-family: "Playfair Display";
+  //padding: 10vh 1rem;
+  background-color: #efebe2;
+  color: #231f20;
+}
+
+.inner {
+  max-width: 43rem;
+  margin: 0 3rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 a {
   color: lighten(#1E656D, 10%);
   border-bottom: 1px solid #F62A00;
   text-decoration: none;
+}
 
-  &:focus,
-  &:hover {
-    color: #F1F3CE;
+figcaption {
+  font-size: 1rem;
+  text-align: center;
+  + p {
+    margin-top: 3rem;
   }
 }
 
-.hi {
-  max-width: 68rem;
-  margin: 0 auto;
-  padding: 1rem .25rem;
-  font-size: 2rem;
-  line-height: 3rem;
-  text-align: left;
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #CCC;
+  width: 100%;
+  margin: 2rem 0;
+  clear: both;
+  &.section-break {
+    width: 20%;
+    margin: 4rem auto;
+    background-color: #CCC;
+  }
 }
 
-.updated {
-  font-size: 1rem;
-  color: #1E656D;
+//////
+//////
+////// Newsletter Signups
+//////
+//////
+
+form {
   margin: 0 auto;
-  padding: 1rem .25rem;
-  max-width: 68rem;
+}
+
+input {
+  border-radius: 3px;
+  border: 0;
+  padding: .5rem;
+  display: inline;
+  font-size: 1rem;
+  &:focus {
+    outline: 0;
+  }
+}
+
+input[type=submit] {
+  //background-color: $pink;
+  //color: $white;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  margin-left: .5rem;
+  letter-spacing: 3px;
+  //margin-top: 1rem;
+  //border-radius: 25px;
+  //font-size: $font-size-small;
+  text-transform: uppercase;
+  //font-weight: $font-weight-light;
+  //font-family: $font-heading;
+  //@include breakpoint(medium) {
+  //  margin-top: 0;
+  background-color: lighten(#1E656D, 10%);
+  color: #FFF;
+  //}
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.mini {
+  h3 {
+    line-height: 2.4rem;
+  }
+  .mini-header {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    display: block;
+    padding-top: 2rem;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+  &.tb-signup {
+    padding-bottom: 0 !important;
+  }
+  #bd-email {
+    border: 1px solid #e3e3e3;
+    width: 70%;
+  //  @include breakpoint(large) {
+    //  width: 75%;
+    //}
+  }
+  h4 {
+    font-weight: 400;
+    font-variant-caps: small-caps;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.subscribe-flow {
+  margin-top: 4rem;
+}
+
+.locations {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  p {
+    font-size: 1rem;
+    font-family: "WarblerDisplayItalic";
+    //font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+  }
 }

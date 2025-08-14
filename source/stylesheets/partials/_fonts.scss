@@ -1,0 +1,225 @@
+//////
+//////
+////// Ye Olde Typography
+//////
+//////
+
+@font-face {
+  src: url('/fonts/WarblerVariable[opsz,wght]-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerVariable[opsz,wght]-Testing.woff') format("woff");
+  font-family: '';
+  //font-style: ;
+  //font-weight: ;
+}
+
+@font-face {
+  src: url('/fonts/WarblerVariable-Italic[opsz,wght]-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerVariable-Italic[opsz,wght]-Testing.woff') format("woff");
+  font-family: '';
+  //font-style: ;
+  //font-weight: ;
+}
+
+
+@font-face {
+  src: url('/fonts/WarblerBanner-Regular-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerBanner-Regular-Testing.woff') format("woff");
+  font-family: 'WarblerBannerRegular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerBanner-Italic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerBanner-Italic-Testing.woff') format("woff");
+  font-family: 'WarblerBannerItalic';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerBanner-Bold-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerBanner-Bold-Testing.woff') format("woff");
+  font-family: 'WarblerBanner';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/WarblerBanner-BoldItalic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerBanner-BoldItalic-Testing.woff') format("woff");
+  font-family: 'WarblerBanner';
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDisplay-Regular-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDisplay-Regular-Testing.woff') format("woff");
+  font-family: 'WarblerDisplayRegular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDisplay-Italic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDisplay-Italic-Testing.woff') format("woff");
+  font-family: 'WarblerDisplay';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDisplay-Bold-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDisplay-Bold-Testing.woff') format("woff");
+  font-family: 'WarblerDisplay';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDisplay-BoldItalic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDisplay-BoldItalic-Testing.woff') format("woff");
+  font-family: 'WarblerDisplay';
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDeck-Regular-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDeck-Regular-Testing.woff') format("woff");
+  font-family: 'WarblerDeck';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDeck-Italic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDeck-Italic-Testing.woff') format("woff");
+  font-family: 'WarblerDeck';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDeck-Bold-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDeck-Bold-Testing.woff') format("woff");
+  font-family: 'WarblerDeck';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/WarblerDeck-BoldItalic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerDeck-BoldItalic-Testing.woff') format("woff");
+  font-family: 'WarblerDeck';
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/WarblerText-Regular-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerText-Regular-Testing.woff') format("woff");
+  font-family: 'WarblerTextRegular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerText-Italic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerText-Italic-Testing.woff') format("woff");
+  font-family: 'WarblerText';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/WarblerText-Bold-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerText-Bold-Testing.woff') format("woff");
+  font-family: 'WarblerText';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/WarblerText-BoldItalic-Testing.woff2') format("woff2"),
+       url('/fonts/WarblerText-BoldItalic-Testing.woff') format("woff");
+  font-family: 'WarblerText';
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+    src: url('/fonts/BradleyDJR-Regular.woff2') format("woff2"),
+         url('/fonts/BradleyDJR-Regular.woff') format("woff");
+    font-family: 'BradleyDJRWeb';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('/fonts/BradleyDJR-Display.woff2') format("woff2"),
+         url('/fonts/BradleyDJR-Display.woff') format("woff");
+    font-family: 'BradleyDJRWeb-Display';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('/fonts/BradleyDJR-Small.woff2') format("woff2"),
+         url('/fonts/BradleyDJR-Small.woff') format("woff");
+    font-family: 'BradleyDJRWeb-Small';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('/fonts/BradleyDJR-Micro.woff2') format("woff2"),
+         url('/fonts/BradleyDJR-Micro.woff') format("woff");
+    font-family: 'BradleyDJRWeb-Micro';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('/fonts/BradleyDJRVariable-VF.woff2') format("woff2"),
+         url('/fonts/BradleyDJRVariable-VF.woff') format("woff");
+    font-family: 'BradleyDJRVariableWeb';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6pt 60pt;
+    }
+
+
+h1, h2, h3 {
+  line-height: 2.7rem;
+}
+
+h1 {
+  font-family: "WarblerBannerItalic";
+  font-style: italic;
+  font-size: 5.6rem;
+  line-height: 7rem;
+  margin-bottom: 0;
+  //text-align: center;
+}
+
+h3 {
+  font-family: "WarblerVariable";
+  font-size: 1.7rem;
+  font-weight: 400;
+  //margin-top: 3rem;
+  //text-align: center;
+  font-variant-caps: small-caps;
+  font-variation-settings: opsz;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "WarblerDisplayRegular";
+  font-weight: 400;
+}
+
+p {
+  font-family: "WarblerDisplayRegular";
+}
