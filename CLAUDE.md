@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 # This site requires Ruby 3.3.6
 # Switch to Ruby 3.3.6 if using RVM
-rvm use 2.7.8
+rvm use 3.3.6
 
 # Install dependencies
 bundle install
