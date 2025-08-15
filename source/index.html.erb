@@ -67,7 +67,12 @@ keywords: the becoming, consciousness, emergence, essays, book recommendations, 
         <h4>the becoming</h4>
         <p>A joyfully irregular newsletter about my research, as well as personal essays, things that have caught my attention, amazing books I’ve read, and stuff that has been occupying my brain.</p>
         <%= partial "tb_form" %>
-
+        <h5>previously:</h5>
+          <% blog('the-becoming').articles.each do |article| %>
+            <ul>
+              <li><%= link_to article.data.title, article %> </li>
+            </ul>
+          <% end %>
       </div>
     </div>
   </section>

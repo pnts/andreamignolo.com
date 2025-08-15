@@ -1,0 +1,14 @@
+<% wrap_layout :layout do %>
+
+<section class="newsletter">
+  <div class="inner">
+    <article>
+      <%= link_to('home', '/', class: "home") %>
+      <span class="figurehead">the becoming</span>
+      <h1><%= current_page.data.title %></h1>
+      <%= yield %>
+    </article>
+  </div>
+</section>
+
+<% end %>

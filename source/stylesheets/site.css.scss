@@ -13,15 +13,22 @@ body {
   max-width: 43rem;
   margin: 0 auto;
   font-size: 1.3rem;
-  line-height: 2rem;
+  line-height: 2.1rem;
   padding-left: .5rem;
   padding-right: .5rem;
 }
 
 a {
-  color: lighten(#1E656D, 10%);
-  border-bottom: 1px solid #F62A00;
-  text-decoration: none;
+  //color: lighten(#1E656D, 10%);
+  color: #231f20;
+  text-decoration: underline;
+  text-decoration-color: #F62A00;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.2rem;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  &:hover {
+    color: #F62A00;
+  }
 }
 
 figcaption {
@@ -44,6 +51,12 @@ hr {
     margin: 4rem auto;
     background-color: #CCC;
   }
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 3rem;
+  font-size: 1.3rem;
 }
 
 //////
@@ -135,5 +148,53 @@ input[type=submit] {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
+  }
+}
+
+//////
+//////
+////// the becoming
+//////
+//////
+
+.the-becoming {
+  background: rgb(251, 249, 238);
+  .figurehead, .home {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    + h1 {
+      margin-top: 0;
+    }
+  }
+  .home {
+    margin-top: 3rem;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  article {
+    color: #494345;
+    a {
+      color: #494345;
+      &:hover {
+        color: #F62A00;
+      }
+    }
+    p {
+      margin-bottom: 2rem;
+    }
+    strong {
+      font-weight: 400;
+      background-color: #efebe2;
+    }
+    blockquote {
+      font-size: 1.2rem;
+    }
+  }
+  .figcaption + p {
+    margin-top: 3rem;
   }
 }

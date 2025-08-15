@@ -11,6 +11,24 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+activate :blog do |blog|
+  blog.name = "the-becoming"
+  blog.prefix = "the-becoming"
+  blog.sources = "{title}.html"
+  blog.permalink = "{title}"
+  blog.layout = "layouts/the-becoming"
+
+  blog.default_extension = ".md"
+
+  #blog.new_article_template = File.expand_path('../source/the-becoming/template.yml', __FILE__)
+
+  #blog.tag_template = "tag.html"
+  #blog.calendar_template = "calendar.html"
+
+  # Enable pagination
+  #blog.paginate = true
+end
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
