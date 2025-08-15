@@ -1,103 +1,103 @@
 @font-face {
-  src: url("/fonts/WarblerVariable[opsz,wght]-Testing.woff2") format("woff2"), url("/fonts/WarblerVariable[opsz,wght]-Testing.woff") format("woff");
+  src: url("/fonts/WarblerVariable[opsz,wght].woff2") format("woff2"), url("/fonts/WarblerVariable[opsz,wght].woff") format("woff");
   font-family: ''; }
 
 @font-face {
-  src: url("/fonts/WarblerVariable-Italic[opsz,wght]-Testing.woff2") format("woff2"), url("/fonts/WarblerVariable-Italic[opsz,wght]-Testing.woff") format("woff");
+  src: url("/fonts/WarblerVariable-Italic[opsz,wght].woff2") format("woff2"), url("/fonts/WarblerVariable-Italic[opsz,wght].woff") format("woff");
   font-family: ''; }
 
 @font-face {
-  src: url("/fonts/WarblerBanner-Regular-Testing.woff2") format("woff2"), url("/fonts/WarblerBanner-Regular-Testing.woff") format("woff");
-  font-family: 'WarblerBannerRegular';
+  src: url("/fonts/WarblerBanner-Regular.woff2") format("woff2"), url("/fonts/WarblerBanner-Regular.woff") format("woff");
+  font-family: 'WarblerBanner';
   font-style: normal;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerBanner-Italic-Testing.woff2") format("woff2"), url("/fonts/WarblerBanner-Italic-Testing.woff") format("woff");
-  font-family: 'WarblerBannerItalic';
+  src: url("/fonts/WarblerBanner-Italic.woff2") format("woff2"), url("/fonts/WarblerBanner-Italic.woff") format("woff");
+  font-family: 'WarblerBanner';
   font-style: italic;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerBanner-Bold-Testing.woff2") format("woff2"), url("/fonts/WarblerBanner-Bold-Testing.woff") format("woff");
+  src: url("/fonts/WarblerBanner-Bold.woff2") format("woff2"), url("/fonts/WarblerBanner-Bold.woff") format("woff");
   font-family: 'WarblerBanner';
   font-style: normal;
   font-weight: 700; }
 
 @font-face {
-  src: url("/fonts/WarblerBanner-BoldItalic-Testing.woff2") format("woff2"), url("/fonts/WarblerBanner-BoldItalic-Testing.woff") format("woff");
+  src: url("/fonts/WarblerBanner-BoldItalic.woff2") format("woff2"), url("/fonts/WarblerBanner-BoldItalic.woff") format("woff");
   font-family: 'WarblerBanner';
   font-style: italic;
   font-weight: 700; }
 
 @font-face {
-  src: url("/fonts/WarblerDisplay-Regular-Testing.woff2") format("woff2"), url("/fonts/WarblerDisplay-Regular-Testing.woff") format("woff");
-  font-family: 'WarblerDisplayRegular';
+  src: url("/fonts/WarblerDisplay-Regular.woff2") format("woff2"), url("/fonts/WarblerDisplay-Regular.woff") format("woff");
+  font-family: 'WarblerDisplay';
   font-style: normal;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerDisplay-Italic-Testing.woff2") format("woff2"), url("/fonts/WarblerDisplay-Italic-Testing.woff") format("woff");
+  src: url("/fonts/WarblerDisplay-Italic.woff2") format("woff2"), url("/fonts/WarblerDisplay-Italic.woff") format("woff");
   font-family: 'WarblerDisplay';
   font-style: italic;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerDisplay-Bold-Testing.woff2") format("woff2"), url("/fonts/WarblerDisplay-Bold-Testing.woff") format("woff");
+  src: url("/fonts/WarblerDisplay-Bold.woff2") format("woff2"), url("/fonts/WarblerDisplay-Bold.woff") format("woff");
   font-family: 'WarblerDisplay';
   font-style: normal;
   font-weight: 700; }
 
 @font-face {
-  src: url("/fonts/WarblerDisplay-BoldItalic-Testing.woff2") format("woff2"), url("/fonts/WarblerDisplay-BoldItalic-Testing.woff") format("woff");
+  src: url("/fonts/WarblerDisplay-BoldItalic.woff2") format("woff2"), url("/fonts/WarblerDisplay-BoldItalic.woff") format("woff");
   font-family: 'WarblerDisplay';
   font-style: italic;
   font-weight: 700; }
 
 @font-face {
-  src: url("/fonts/WarblerDeck-Regular-Testing.woff2") format("woff2"), url("/fonts/WarblerDeck-Regular-Testing.woff") format("woff");
+  src: url("/fonts/WarblerDeck-Regular.woff2") format("woff2"), url("/fonts/WarblerDeck-Regular.woff") format("woff");
   font-family: 'WarblerDeck';
   font-style: normal;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerDeck-Italic-Testing.woff2") format("woff2"), url("/fonts/WarblerDeck-Italic-Testing.woff") format("woff");
+  src: url("/fonts/WarblerDeck-Italic.woff2") format("woff2"), url("/fonts/WarblerDeck-Italic.woff") format("woff");
   font-family: 'WarblerDeck';
   font-style: italic;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerDeck-Bold-Testing.woff2") format("woff2"), url("/fonts/WarblerDeck-Bold-Testing.woff") format("woff");
+  src: url("/fonts/WarblerDeck-Bold.woff2") format("woff2"), url("/fonts/WarblerDeck-Bold.woff") format("woff");
   font-family: 'WarblerDeck';
   font-style: normal;
   font-weight: 700; }
 
 @font-face {
-  src: url("/fonts/WarblerDeck-BoldItalic-Testing.woff2") format("woff2"), url("/fonts/WarblerDeck-BoldItalic-Testing.woff") format("woff");
+  src: url("/fonts/WarblerDeck-BoldItalic.woff2") format("woff2"), url("/fonts/WarblerDeck-BoldItalic.woff") format("woff");
   font-family: 'WarblerDeck';
   font-style: italic;
   font-weight: 700; }
 
 @font-face {
-  src: url("/fonts/WarblerText-Regular-Testing.woff2") format("woff2"), url("/fonts/WarblerText-Regular-Testing.woff") format("woff");
-  font-family: 'WarblerTextRegular';
+  src: url("/fonts/WarblerText-Regular.woff2") format("woff2"), url("/fonts/WarblerText-Regular.woff") format("woff");
+  font-family: 'WarblerText';
   font-style: normal;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerText-Italic-Testing.woff2") format("woff2"), url("/fonts/WarblerText-Italic-Testing.woff") format("woff");
+  src: url("/fonts/WarblerText-Italic.woff2") format("woff2"), url("/fonts/WarblerText-Italic.woff") format("woff");
   font-family: 'WarblerText';
   font-style: italic;
   font-weight: 400; }
 
 @font-face {
-  src: url("/fonts/WarblerText-Bold-Testing.woff2") format("woff2"), url("/fonts/WarblerText-Bold-Testing.woff") format("woff");
+  src: url("/fonts/WarblerText-Bold.woff2") format("woff2"), url("/fonts/WarblerText-Bold.woff") format("woff");
   font-family: 'WarblerText';
   font-style: normal;
   font-weight: 700; }
 
 @font-face {
-  src: url("/fonts/WarblerText-BoldItalic-Testing.woff2") format("woff2"), url("/fonts/WarblerText-BoldItalic-Testing.woff") format("woff");
+  src: url("/fonts/WarblerText-BoldItalic.woff2") format("woff2"), url("/fonts/WarblerText-BoldItalic.woff") format("woff");
   font-family: 'WarblerText';
   font-style: italic;
   font-weight: 700; }
@@ -106,26 +106,27 @@ h1, h2, h3 {
   line-height: 2.7rem; }
 
 h1 {
-  font-family: "WarblerBannerItalic";
+  font-family: "WarblerBanner";
   font-style: italic;
   font-size: 5.6rem;
   line-height: 7rem;
-  margin-bottom: 0; }
-
-h3 {
-  font-family: "WarblerVariable";
-  font-size: 1.7rem;
+  margin-bottom: 0;
   font-weight: 400;
-  font-variant-caps: small-caps;
-  font-variation-settings: opsz; }
+  text-align: center; }
 
 h2 {
   font-size: 2rem;
-  font-family: "WarblerDisplayRegular";
+  font-family: "WarblerDisplay";
   font-weight: 400; }
 
-p {
-  font-family: "WarblerDisplayRegular"; }
+h3, h4 {
+  font-family: "WarblerDisplay";
+  font-weight: 400;
+  font-variant-caps: small-caps;
+  font-size: 1.7rem; }
+
+p, figcaption {
+  font-family: "WarblerDisplay"; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -605,9 +606,6 @@ input[type=submit] {
   width: 70%; }
 
 .mini h4 {
-  font-weight: 400;
-  font-variant-caps: small-caps;
-  font-size: 1.7rem;
   margin-bottom: 1rem; }
 
 .subscribe-flow {
