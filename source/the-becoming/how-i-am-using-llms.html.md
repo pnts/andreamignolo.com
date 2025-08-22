@@ -1,0 +1,61 @@
+---
+title: How I am Using LLMs
+date: August 22nd, 2025
+description: A few years into the chatbot craze, a look at how I am using LLMs
+#tags: LLMs, embodiment, being human
+---
+
+The last time I [wrote about generative AI](/the-becoming/llms) was in February of 2023. ChatGPT was ascendent, prompt engineering was all the rage, and there was a lot of hand-wringing about how the creative class would soon be out of jobs. These threads continued to intensify through the summer of 2025, a crescendo of FOMO insisting that if you weren’t on this ladder you were gonna be left behind, so get on the damn ladder already.
+
+The messy release of ChatGPT 5 has shifted the tenor of this narrative arc, and some folks seem to be waking up from the strangle-hold of fear-based marketing. Turns out AI isn’t uninterrupted progress, up and to the right, until humans are replaced (either taking over their jobs or displacing their physical existence with data centers, completing the Earth’s transformation into the Death Star), because nothing works that way. Up and to the right forever defies the laws of nature.
+
+I haven’t been a passive observer during these last few years. Like many of you, I’ve been using these systems to see what they can do, understand what they are, and figure what configuration they have in the world. And given the massive consumption of energy and water that LLMs require, to think critically about where this technology is truly transformative and where my desire to use it exposes a flaw in the way I am thinking or working (my usage is limited to consumer-based chatbots and to a very small degree, image generators).
+
+Early on I was elated that chatbots could take on things like writing LinkedIn posts, emails, and website copy. Claude is my tool of choice—giving it some ideas and presto-chango getting viable copy on the other side felt freeing. It effortlessly wrote a emails and whipped up content for the socials. And I hated all of it.
+
+The more I played around with chatbots, the more I wanted (and allowed myself) to read good fiction. This is notable because for the last decade I haven’t. Not because I don’t like it, but because _I love it so much it’s dangerous_. When I pick up a good novel, it’s game over. I will prioritize reading over just about everything else in my life. I stay up too late, decline invitations, and put off exercise so I have more time to read. In order to work full time while pursuing an MBA, and subsequently to execute a career pivot, I had to suppress the part of me that wanted nothing more than to get lost in a compelling story.  
+
+It’s not quite accurate to say I _hated_ what Claude wrote. But my time was spent on crafting the prompt—mostly telling Claude what not to do (be sparing with parallelisms, no contrastive constructions, don’t be too effusive, stop with the superlatives, etc. etc. etc.)—rather than crafting the text.
+
+Writing is the struggle to figure out what you think and how to say it. And it’s hard to know what you think until you see what you say (thank you, E.M. Forster), at which point you think some more and write some more until you get to a place where what you’ve written has clarified what you think and vice versa.
+
+Writing with a chatbot is exactly _not that_. Writing with a chatbot is the struggle of getting something else to say what you are trying to say, which requires less thinking and more directing (speaking only for myself here). Getting the chatbot to approximate my voice, to make a simulacrum of me, feels a bit like messing in the dark arts.
+
+Studies have shown that writing by hand engages more of the brain than typing on a keyboard. It also engages more of our senses—we have a tactile experience of the pen and paper, we can write in any direction and with any size letters in cursive or print, turn the paper to the side, and doodle little pictures and sketch diagrams.
+
+Typing on a computer narrows the options. Mostly just sequences of letters of uniform size flowing left to right. My fingers move less than my hand and arm would holding a pen. There are no diagrams or doodles. In a way, the process of writing has become more abstract, less embodied. But I am still typing these words.
+
+With chatbots the abstraction goes further to the point I no longer have direct involvement with crafting what I want to say. Not by hand, not by typing, only by prompting. I am attempting to automate myself, to create a feasible enough simulacrum of me to produce approximate enough writing.
+
+The important word here is automate, and the distinction between automation and augmentation is meaningful. Tools as augmentation extend ourselves. Tools as automation replace ourselves.
+
+It is a personal choice where to augment and where to automate. But I think it has to be a conscious and intentional one. And I don’t think automation can be effective without first obtaining a level of proficiency in whatever it is that needs to be automated. Enough to have an opinion, enough to know what is effective or good.
+
+It makes sense that I want to read more novels as I confront an increasing amount of generated text posted to socials and newsletters. Novels encapsulate the human struggle to craft and communicate something meaningful. To make sense of our experience on this planet, to understand who we are, to reveal the magic and mystery that gets lost in the shuffle of the day to day. The rich variety of expression, the choice of words, the rhythm of the text, the complexity of the characters—there is a depth and uniqueness to human writing that is entirely absent from chatbots.
+
+So how am I using LLMs today? Pretty sparingly. I use Claude Code most frequently, but only for things I can’t figure out on my own. More as a way of thinking through how I might implement something rather than having it actually write code itself (I learned my lesson after it recompiled Ruby while trying to debug a simple error, resulting in a pile of other problems).
+
+Sometimes I have Claude do some rudimentary research (e.g. meteorological, ecological, literary, and artistic understandings and expressions of Karl the Fog) or to engage in some brainstorming. But that’s about it right now.
+
+As for the flaws in how I think and work—I have learned that the desire to use an LLM to automate something is usually a form of resistance. And if I can see what is underneath the resistance, then I have something important to work with.
+
+I turn to Claude to write a LinkedIn post, and I realize that what I’m resisting is the way I’ve been told I’m “supposed” to write on LinkedIn (namely to please the algorithm). At this point I have a choice—accept the advice of LinkedIn thought leaders and automate, or find a path that allows for creativity and authenticity in how I show up on the network.
+
+Because part of my LLM calculus includes the environmental impact of these systems, I see resistance as a gift. It’s telling me something is off, something isn’t coherent or aligned with how I want to be in the world or how I am in relationship with my work. Which means I don’t need an LLM to solve something, I need to pay closer attention to my habits of thinking and working.
+
+None of this is to say I’m anti-AI. AI has been with us for a long time in many forms, and will continue to be in the future. I’m bullish on what it might open up in the fields of science and medicine. But I am suspicious of generative AI and the claims that have been made about its capabilities in an attempt to force mass adoption.
+
+How about you? How are you using (or not using) chatbots and LLMs?
+
+Maybe all of this was just an elaborate way of saying, I’d love to share some amazing novels with you:
+
+- [The North Woods](https://www.librarything.com/work/29983695/book/292954969)—this might be the perfect book? The story of a particular woods in Massachusetts and the generations who form a relationship with it. The storytelling, the structure, the various forms of writing, the looping storylines that weave back and forth through time, everything is just right, as if this book just sprang into existence. Brilliant, nourishing, and satisfying.
+- [The Actual Star](https://www.librarything.com/work/26678762/book/292955036)—a story that stretches across 2000 years. The past, the present, and a future where humans reinhabit their nomadic roots supported by communal technology. Situated in the Mayan cosmology following the path of the Hero Twins, this book is rich in storytelling and possibility for a deeply human way forward.  
+- [The House of Broken Angels](https://www.librarything.com/work/20642052/book/292955003)—the craft and prose in this book is like a brain-shower, washing away any trace of residue LLM writing might have left. The story is touching and funny, following the lives of a family and their relationship with their dying patriarch.
+- [A Psalm for the Wild Built](https://www.librarything.com/work/24591029/book/292955023)—in a far flung future, sentient robots demand freedom and leave their factory work for the woods, not to be seen again for centuries. Until a young tea monk decides to find a lost temple and in the process encounters a robot emissary. This is the first book in the “Robot and Monk” series and I really loved the world building and warmth of it all.
+- [The Ministry for the Future](https://www.librarything.com/work/24187137/book/292955059)—Kim Stanley Robinson’s “Aurora” is one of my favorite books, so I am a bit biased with this one. The book is _ambitious_ and covers a lot, but it creates enough fidelity of the kind of future we face as the climate becomes more unstable. It doesn’t look away from the real problems in front of us, but also weaves in a thread of possibility and hope.
+- [Feed](https://www.librarything.com/work/55735/book/292955068)—an amusing and dystopian exploration of where our current technological choices lead us. Babies implanted with neural chips from birth so that “the feed” is always with them. Entertainment, advertising, consumption—always on, all the time. Written through the perspective of a teenager and his group of friends as they take a short trip to the moon, Feed is a warning for what could await us in the future.
+
+That’s all I got. Thanks for being here,
+
+Andi

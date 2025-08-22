@@ -670,5 +670,7 @@ input[type=submit] {
       background-color: #efebe2; }
     .the-becoming article blockquote {
       font-size: 1.2rem; }
+    .the-becoming article li {
+      margin-bottom: 1rem; }
   .the-becoming .figcaption + p {
     margin-top: 3rem; }
