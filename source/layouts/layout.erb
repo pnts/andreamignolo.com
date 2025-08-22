@@ -11,9 +11,7 @@
     <meta property="og:title" content="<%= current_page.data.title %>" />
     <meta property="og:description" content="<%= current_page.data.description %>" />
     <meta property="og:url" content="<%= 'http://andreamignolo.com' + current_page.url %>" />
-    <meta property="og:image" content="<%#= 'http://andreamignolo.com/' + 'images/og/og-' + current_page.data.title + '.png' %>" />
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <meta property="og:image" content="<%= '/images/og-default.jpg' %>" />
     <%= stylesheet_link_tag "site" %>
   </head>
   <body class="<%= page_classes %>">
