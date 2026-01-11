@@ -161,6 +161,7 @@ PLATFORMS
 
 DEPENDENCIES
   concurrent-ruby (= 1.3.4)
+  dotenv
   listen
   middleman (~> 4.4.2)
   middleman-autoprefixer (~> 2.7)

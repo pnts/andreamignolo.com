@@ -14,4 +14,8 @@ gem 'nokogiri'
 
 # Added by Claude Code - for inlining CSS in email templates
 gem 'premailer'
+
+# Added by Claude Code - for loading environment variables from .env file
+gem 'dotenv'
+
 gem 'concurrent-ruby', '1.3.4'

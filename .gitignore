@@ -17,3 +17,9 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+# Added by Claude Code - Environment variables (contains API keys)
+.env
+
+# Added by Claude Code - Generated email preview file
+source/email_preview.html

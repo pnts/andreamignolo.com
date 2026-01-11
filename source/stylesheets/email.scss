@@ -6,9 +6,9 @@
 // VARIABLES
 // ==========================================
 
-// Colors - matching the website's warm palette
-$bg-outer: #efebe2;        // Warm beige background
-$bg-inner: rgb(251, 249, 238); // Lighter warm background for content
+// Colors - clean white for email with Buttondown wrapper
+$bg-outer: #FFFFFF;        // White background
+$bg-inner: #FFFFFF;        // White background for content
 $text-color: #494345;      // Dark brown text
 $accent-color: #F62A00;    // Red-orange accent for links
 $border-color: #CCC;       // Light gray for borders
@@ -21,6 +21,7 @@ $spacing-large: 40px;
 $spacing-medium: 30px;
 $spacing-small: 20px;
 $spacing-tiny: 10px;
+$spacing-tiniest: 5px;
 
 
 // ==========================================
@@ -57,7 +58,7 @@ body {
 }
 
 .email-container-cell {
-  padding: $spacing-large $spacing-medium;
+  padding: $spacing-large $spacing-medium 0 $spacing-medium;
 }
 
 
@@ -66,7 +67,7 @@ body {
 // ==========================================
 
 .header-section {
-  text-align: center;
+  text-align: left;
   padding-bottom: $spacing-medium;
 }
 
@@ -74,7 +75,7 @@ body {
 .newsletter-name {
   font-size: 14px;
   letter-spacing: 2px;
-  margin-bottom: $spacing-tiny;
+  margin-bottom: $spacing-tiniest;
   color: $text-color;
   text-transform: uppercase;
 }
@@ -82,25 +83,38 @@ body {
 // Issue number
 .issue-number {
   font-size: 12px;
-  margin-bottom: $spacing-small;
+  margin-bottom: $spacing-tiniest;
   color: $text-color;
   opacity: 0.7;
+  text-transform: uppercase;
 }
 
 // Issue title
 .issue-title {
   font-size: 36px;
   line-height: 44px;
-  margin: 0 0 $spacing-tiny 0;
+  margin: 0 0 0 0;
   font-weight: 600;
   color: $text-color;
 }
 
 // Date
 .issue-date {
-  font-size: 14px;
+  font-size: 12px;
   color: $text-color;
   opacity: 0.7;
+  margin: 0;
+  margin-bottom: $spacing-tiniest;
+  text-transform: uppercase;
+}
+
+// Web link
+.weburl {
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.7;
+  margin-bottom: $spacing-large;
+  font-size: 12px;
 }
 
 
@@ -108,22 +122,24 @@ body {
 // CONTENT SECTION
 // ==========================================
 
-.content-section {
-  font-size: 18px;
-  line-height: 30px;
+// Links
+a {
   color: $text-color;
-  padding: $spacing-small 0;
+  text-decoration: underline;
+  text-decoration-color: $accent-color;
+}
+
+.content-section {
+  font-size: 16px;
+  color: $text-color;
+  line-height: 30px;
+  padding: 0;
 
   // Paragraphs
   p {
+    font-size: 16px;
+    line-height: 24px;
     margin: 0 0 $spacing-small 0;
-  }
-
-  // Links
-  a {
-    color: $text-color;
-    text-decoration: underline;
-    text-decoration-color: $accent-color;
   }
 
   // Images
@@ -131,14 +147,14 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: $spacing-small 0;
+    margin: 0;
   }
 
   // Figure captions
   figcaption,
   .figcaption {
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     color: $text-color;
     opacity: 0.8;
     margin-top: $spacing-tiny;
@@ -156,8 +172,9 @@ body {
   // Horizontal rules (section breaks)
   hr {
     border: 0;
-    height: 1px;
-    background-color: $border-color;
+    height: 2px;
+    width: 20%;
+    background-color: #EEE;
     margin: $spacing-medium 0;
   }
 
@@ -181,16 +198,18 @@ body {
   margin-top: $spacing-large;
   padding-top: $spacing-medium;
   border-top: 1px solid $border-color;
-  text-align: center;
+  text-align: left;
+  color: $text-color;
+  opacity: 0.7;
 }
 
 .footer-content {
   font-size: 14px;
   line-height: 22px;
-  color: $text-color;
 
   p {
-    margin: 0 0 15px 0;
+    margin: 0 0 0 0;
+    font-size: 14px;
   }
 
   a {
@@ -198,11 +217,20 @@ body {
     text-decoration: underline;
     text-decoration-color: $accent-color;
   }
-}
 
-.footer-tagline {
-  font-size: 12px;
-  color: $text-color;
-  opacity: 0.7;
-  margin: 0;
+  .footer-tagline {
+    margin-bottom: $spacing-small;
+  }
+
+  .footer-author {
+    margin-bottom: $spacing-small;
+  }
+
+  .footer-archives {
+    margin-bottom: $spacing-small;
+  }
+
+  .footer-subscribe {
+    margin-bottom: $spacing-small;
+  }
 }

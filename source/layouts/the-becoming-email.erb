@@ -5,13 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= title %></title>
 
-  <!-- Compiled CSS will be injected here by the preview/send scripts -->
   <style>
     <%= styles %>
   </style>
 </head>
 
-<!-- Added by Claude Code -->
 <!-- This is an HTML email template for "the becoming" newsletter -->
 <!-- Email HTML uses tables for layout because modern CSS (flexbox/grid) doesn't work reliably across email clients -->
 <!-- Styles are defined in source/stylesheets/email.scss and inlined by Premailer -->
@@ -33,11 +31,6 @@
                 <tr>
                   <td class="header-section">
 
-                    <!-- Newsletter name: "the becoming" -->
-                    <div class="newsletter-name">
-                      the becoming
-                    </div>
-
                     <!-- Issue number -->
                     <% if issue %>
                     <div class="issue-number">
@@ -45,17 +38,31 @@
                     </div>
                     <% end %>
 
-                    <!-- Issue title -->
-                    <h1 class="issue-title">
-                      <%= title %>
-                    </h1>
-
                     <!-- Date -->
                     <% if date %>
                     <div class="issue-date">
                       <%= date %>
                     </div>
                     <% end %>
+
+                    <!-- Web version link -->
+                    <% if web_url %>
+                    <p class="weburl">
+                      <a href="<%= web_url %>">web link</a>
+                    </p>
+                    <% end %>
+
+                    <!-- Newsletter name: "the becoming" -->
+                    <div class="newsletter-name">
+                      the becoming
+                    </div>
+
+
+                    <!-- Issue title -->
+                    <h1 class="issue-title">
+                      <%= title %>
+                    </h1>
+
 
                   </td>
                 </tr>
@@ -76,18 +83,25 @@
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="footer-section">
                 <tr>
                   <td class="footer-content">
-                    <% if web_url %>
-                    <p>
-                      <a href="<%= web_url %>">Read this issue on the web</a>
-                    </p>
-                    <% end %>
-
+                    <!-- Newsletter tagline -->
                     <p class="footer-tagline">
-                      the becoming • a joyfully irregular newsletter
+                      <i>the becoming</i> is a joyfully irregular newsletter about listening, life, books, and research, written by Andrea (Andi) Mignolo. Generally sent from San Francisco, sometimes from Buenos Aires, and occasionally from Bend.
                     </p>
 
-                    <!-- Placeholder for additional footer content -->
-                    <!-- You can customize this later with: about, archives link, forward request, etc. -->
+                    <!-- Archives link -->
+                    <p class="footer-archives">
+                      You can read <a href="https://andreamignolo.com/">past issues here</a>.
+                    </p>
+
+                    <!-- Forward request -->
+                    <p class="footer-subscribe">
+                      New to this newsletter? <a href="{{ subscribe_url }}">Subscribe here</a>. Tired of this newsletter?  <a href="{{ unsubscribe_url }}">Unsubscribe here</a>.
+                    </p>
+
+                    <!-- Forward request -->
+                    <p class="forward-request">
+                      <i>If you enjoyed reading this, please consider forwarding it to someone who might like it too.</i>
+                    </p>
                   </td>
                 </tr>
               </table>
