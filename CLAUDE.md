@@ -27,6 +27,8 @@ The site appears to be configured for static deployment (build output goes to `/
 
 This is a simple personal bio site built with Middleman, a Ruby-based static site generator.
 
+**IMPORTANT: Always follow Middleman conventions and project structure. New files should fit within the existing Middleman architecture (layouts in `source/layouts/`, etc.).**
+
 ### Project Structure
 - `source/` - All source content and templates
   - `index.html.erb` - Main page content with frontmatter (title, description, keywords)
@@ -54,3 +56,5 @@ When making edits to HTML, CSS, or JavaScript files, always add a comment indica
 - HTML/ERB: `<!-- Added by Claude Code -->`
 - CSS/SCSS: `/* Added by Claude Code */`
 - JavaScript: `// Added by Claude Code`
+
+Additionally, add explanatory comments throughout any code you write to help explain what the code does, especially for complex logic or non-obvious implementations.

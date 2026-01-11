@@ -1,6 +1,7 @@
 ---
 title: How I am Using LLMs
 date: August 22nd, 2025
+issue: 4
 description: A few years into the chatbot craze, a look at how I am using LLMs
 #tags: LLMs, embodiment, being human
 ---
@@ -17,7 +18,7 @@ The more I played around with chatbots, the more I wanted (and allowed myself) t
 
 When I pick up a good novel, it’s game over. I will prioritize reading over just about everything else in my life. I stay up too late, decline invitations, and put off exercise so I have more time to read. In order to work full time while pursuing an MBA, and subsequently to execute a career pivot, I had to suppress the part of me that wanted nothing more than to get lost in a compelling story.  
 
-It’s not quite accurate to say I _hated_ what Claude wrote. But my time was spent on crafting the prompt—mostly telling Claude what not to do (be sparing with parallelisms, no contrastive constructions, don’t be too effusive, stop with the superlatives, etc. etc. etc.)—rather than crafting the text. Maybe I just hated what I was doing, what my role was, in this relationship. 
+It’s not quite accurate to say I _hated_ what Claude wrote. But my time was spent on crafting the prompt—mostly telling Claude what not to do (be sparing with parallelisms, no contrastive constructions, don’t be too effusive, stop with the superlatives, etc. etc. etc.)—rather than crafting the text. Maybe I just hated what I was doing, what my role was, in this relationship.
 
 Writing is the struggle to figure out what you think and how to say it. And it’s hard to know what you think until you see what you say (thank you, E.M. Forster), at which point you think some more and write some more until you get to a place where what you’ve written has clarified what you think and vice versa.
 

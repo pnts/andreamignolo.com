@@ -1,6 +1,7 @@
 ---
 title: The ChatGPT Edition
 date: February 28, 2023
+issue: 1
 description: An issue of 'the becoming' exploring the emerging landscape of generative LLMs
 #tags: LLMs, embodiment, being human
 ---

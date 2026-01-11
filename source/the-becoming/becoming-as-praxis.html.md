@@ -1,6 +1,7 @@
 ---
 title: Becoming as Praxis
 date: December 30th, 2024
+issue: 3
 description: On the importance of listening as a practice of attunement
 published: true
 ---

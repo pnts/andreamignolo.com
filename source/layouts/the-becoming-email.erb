@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+
+  <!-- Compiled CSS will be injected here by the preview/send scripts -->
+  <style>
+    <%= styles %>
+  </style>
+</head>
+
+<!-- Added by Claude Code -->
+<!-- This is an HTML email template for "the becoming" newsletter -->
+<!-- Email HTML uses tables for layout because modern CSS (flexbox/grid) doesn't work reliably across email clients -->
+<!-- Styles are defined in source/stylesheets/email.scss and inlined by Premailer -->
+
+<body>
+
+  <!-- Outer wrapper table: provides the beige background -->
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="email-wrapper">
+    <tr>
+      <td class="email-wrapper-cell">
+
+        <!-- Main content container: max 600px wide (standard for email), centered, with lighter background -->
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="email-container">
+          <tr>
+            <td class="email-container-cell">
+
+              <!-- HEADER SECTION -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td class="header-section">
+
+                    <!-- Newsletter name: "the becoming" -->
+                    <div class="newsletter-name">
+                      the becoming
+                    </div>
+
+                    <!-- Issue number -->
+                    <% if issue %>
+                    <div class="issue-number">
+                      Issue #<%= issue %>
+                    </div>
+                    <% end %>
+
+                    <!-- Issue title -->
+                    <h1 class="issue-title">
+                      <%= title %>
+                    </h1>
+
+                    <!-- Date -->
+                    <% if date %>
+                    <div class="issue-date">
+                      <%= date %>
+                    </div>
+                    <% end %>
+
+                  </td>
+                </tr>
+              </table>
+              <!-- END HEADER SECTION -->
+
+              <!-- CONTENT SECTION -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td class="content-section">
+                    <%= content %>
+                  </td>
+                </tr>
+              </table>
+              <!-- END CONTENT SECTION -->
+
+              <!-- FOOTER SECTION -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="footer-section">
+                <tr>
+                  <td class="footer-content">
+                    <% if web_url %>
+                    <p>
+                      <a href="<%= web_url %>">Read this issue on the web</a>
+                    </p>
+                    <% end %>
+
+                    <p class="footer-tagline">
+                      the becoming • a joyfully irregular newsletter
+                    </p>
+
+                    <!-- Placeholder for additional footer content -->
+                    <!-- You can customize this later with: about, archives link, forward request, etc. -->
+                  </td>
+                </tr>
+              </table>
+              <!-- END FOOTER SECTION -->
+
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

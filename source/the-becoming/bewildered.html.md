@@ -1,6 +1,7 @@
 ---
 title: Bewildered
 date: November 7th, 2024
+issue: 2
 description: trying to make sense of the 2024 elections in the United States
 published: true
 ---

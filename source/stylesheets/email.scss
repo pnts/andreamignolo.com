@@ -1,0 +1,208 @@
+// Added by Claude Code
+// Email styles for "the becoming" newsletter
+// These styles will be compiled to CSS and inlined by Premailer
+
+// ==========================================
+// VARIABLES
+// ==========================================
+
+// Colors - matching the website's warm palette
+$bg-outer: #efebe2;        // Warm beige background
+$bg-inner: rgb(251, 249, 238); // Lighter warm background for content
+$text-color: #494345;      // Dark brown text
+$accent-color: #F62A00;    // Red-orange accent for links
+$border-color: #CCC;       // Light gray for borders
+
+// Typography
+$font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+// Spacing
+$spacing-large: 40px;
+$spacing-medium: 30px;
+$spacing-small: 20px;
+$spacing-tiny: 10px;
+
+
+// ==========================================
+// BASE STYLES
+// ==========================================
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-outer;
+  font-family: $font-stack;
+  color: $text-color;
+}
+
+
+// ==========================================
+// LAYOUT TABLES
+// ==========================================
+
+// Outer wrapper table
+.email-wrapper {
+  background-color: $bg-outer;
+}
+
+.email-wrapper-cell {
+  padding: $spacing-large $spacing-small;
+}
+
+// Main content container (600px max width, centered)
+.email-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: $bg-inner;
+}
+
+.email-container-cell {
+  padding: $spacing-large $spacing-medium;
+}
+
+
+// ==========================================
+// HEADER SECTION
+// ==========================================
+
+.header-section {
+  text-align: center;
+  padding-bottom: $spacing-medium;
+}
+
+// "the becoming" label
+.newsletter-name {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: $spacing-tiny;
+  color: $text-color;
+  text-transform: uppercase;
+}
+
+// Issue number
+.issue-number {
+  font-size: 12px;
+  margin-bottom: $spacing-small;
+  color: $text-color;
+  opacity: 0.7;
+}
+
+// Issue title
+.issue-title {
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0 0 $spacing-tiny 0;
+  font-weight: 600;
+  color: $text-color;
+}
+
+// Date
+.issue-date {
+  font-size: 14px;
+  color: $text-color;
+  opacity: 0.7;
+}
+
+
+// ==========================================
+// CONTENT SECTION
+// ==========================================
+
+.content-section {
+  font-size: 18px;
+  line-height: 30px;
+  color: $text-color;
+  padding: $spacing-small 0;
+
+  // Paragraphs
+  p {
+    margin: 0 0 $spacing-small 0;
+  }
+
+  // Links
+  a {
+    color: $text-color;
+    text-decoration: underline;
+    text-decoration-color: $accent-color;
+  }
+
+  // Images
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: $spacing-small 0;
+  }
+
+  // Figure captions
+  figcaption,
+  .figcaption {
+    font-size: 14px;
+    text-align: center;
+    color: $text-color;
+    opacity: 0.8;
+    margin-top: $spacing-tiny;
+  }
+
+  // Blockquotes
+  blockquote {
+    margin: $spacing-small 0;
+    padding-left: $spacing-small;
+    border-left: 3px solid $border-color;
+    font-style: italic;
+    color: $text-color;
+  }
+
+  // Horizontal rules (section breaks)
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: $border-color;
+    margin: $spacing-medium 0;
+  }
+
+  // Lists
+  ul, ol {
+    margin: $spacing-small 0;
+    padding-left: $spacing-medium;
+  }
+
+  li {
+    margin-bottom: $spacing-tiny;
+  }
+}
+
+
+// ==========================================
+// FOOTER SECTION
+// ==========================================
+
+.footer-section {
+  margin-top: $spacing-large;
+  padding-top: $spacing-medium;
+  border-top: 1px solid $border-color;
+  text-align: center;
+}
+
+.footer-content {
+  font-size: 14px;
+  line-height: 22px;
+  color: $text-color;
+
+  p {
+    margin: 0 0 15px 0;
+  }
+
+  a {
+    color: $text-color;
+    text-decoration: underline;
+    text-decoration-color: $accent-color;
+  }
+}
+
+.footer-tagline {
+  font-size: 12px;
+  color: $text-color;
+  opacity: 0.7;
+  margin: 0;
+}
