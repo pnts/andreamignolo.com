@@ -11,12 +11,6 @@ layout: layout
       <h1>the becoming</h1>
       <p>A joyfully irregular newsletter about about listening, life, books, and research.</p>
       <%= partial "tb_form" %>
-      <h5>previously:</h5>
-        <% blog('the-becoming').articles.each do |article| %>
-          <ul>
-            <li><%= link_to article.data.title, article %> </li>
-          </ul>
-        <% end %>
     </div>
   </div>
 </section>

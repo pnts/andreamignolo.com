@@ -65,6 +65,11 @@ ul {
 //////
 //////
 
+.newsletter_index h1 ~ p,
+.newsletter_index form {
+  text-align: center;
+}
+
 form {
   margin: 0 auto;
 }
