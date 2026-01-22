@@ -12,9 +12,9 @@ Following my mom through Atlanta’s magnificent botanical gardens.
 
 Y’all, I have so many notes, half-finished essays, voice memos, and hastily scrawled diagrams about listening that I don’t know which way is up. I have been _busy_ since I first wrote to you all about this whole listening project in what, oh, late 2024.
 
-And I keep getting totally paralyzed by putting everything together into One Big Important Thing, which is clearly not the way to go when it comes to making sense of the journey I’ve been on. So instead, I’d thought I’d start by just sharing little vignettes in a series of posts titled “What I Have Learned About Listening” casually pulling together a few pieces of flotsam and jetsam into a vessel for sharing.
+And I keep getting totally paralyzed by putting everything together into One Big Important Thing, which is clearly not the way to go when it comes to making sense of the journey I’ve been on. So instead, I thought I’d start by sharing little vignettes in a series of posts titled “What I Have Learned About Listening” casually pulling together a few pieces of flotsam and jetsam into a vessel for sharing.
 
-As always, thanks for being here. 
+As always, thanks for being here.
 
 i.
 {: .center}
@@ -40,7 +40,7 @@ On the other side of love is fear. Fear shuts down our ability to listen, to lov
 
 Observation from fear is distorted. Fear affirms itself and entrenches us in a fragmented worldview. The body constricts and hardens, cutting off the ability to receive, to connect. We become isolated.
 
-To calm our fear we create ideas, knowledge, and opinions. Back to the conversation between Krishanmurti and Bohm, Bohm wonders if we are so full of opinions that we can’t listen. Krishnamurti confirms, “you can’t listen with opinions; you might as well be dead.” [^2]
+To calm our fear we create ideas, knowledge, and opinions. Back to the conversation between Krishnamurti and Bohm, Bohm wonders if we are so full of opinions that we can’t listen. Krishnamurti confirms, “you can’t listen with opinions; you might as well be dead.” [^2]
 
 Fear deadens us. To ourselves, to the world, to life. We cannot receive, we cannot listen, we cannot love when we are consumed by fear. Our attention moves outward in hyper vigilance, or collapses into disassocation. When we close ourselves off this way, we are easier to control.
 
