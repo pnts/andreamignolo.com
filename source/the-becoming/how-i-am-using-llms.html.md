@@ -1,7 +1,7 @@
 ---
 title: How I am Using LLMs
 date: August 22nd, 2025
-issue: 4
+issue: 5
 description: A few years into the chatbot craze, a look at how I am using LLMs
 #tags: LLMs, embodiment, being human
 ---

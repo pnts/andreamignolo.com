@@ -108,21 +108,55 @@ markdown_processor = Redcarpet::Markdown.new(renderer,
   tables: true,
   fenced_code_blocks: true,
   strikethrough: true,
-  superscript: true
+  superscript: true,
+  footnotes: true  # Added by Claude Code - enables [^1] footnote syntax
 )
 
 # Convert markdown content to HTML
 content = markdown_processor.render(markdown_content)
 
+# Added by Claude Code - Process Kramdown-style attribute syntax {: .classname}
+# These are used in the markdown but Redcarpet doesn't support them natively
+
 # Process figcaptions - convert {: .figcaption} syntax to proper HTML
-# Find paragraphs ending with {: .figcaption} and add the class to the <p> tag
-content = content.gsub(/<p>(.*?)\n?\{:\s*\.figcaption\s*\}<\/p>/m) do |match|
+# Handle case where image and caption are in the same paragraph
+content = content.gsub(/<p>(<img[^>]+>)\s*(.*?)\s*\{:\s*\.figcaption\s*\}<\/p>/m) do |match|
+  img_tag = $1
+  caption_text = $2.strip
+  "#{img_tag}\n<p class=\"figcaption\">#{caption_text}</p>"
+end
+
+# Handle figcaption without an image (plain text paragraph)
+content = content.gsub(/<p>((?!<img)[^<].*?)\s*\{:\s*\.figcaption\s*\}<\/p>/m) do |match|
   caption_text = $1.strip
   "<p class=\"figcaption\">#{caption_text}</p>"
 end
 
-# Process image URLs to make them absolute for email
-# Converts relative paths like "the-becoming/image.jpg" to "https://andreamignolo.com/images/the-becoming/image.jpg"
+# Process center class - handle {: .center} on its own line within a paragraph
+# Pattern: "i.\n{: .center}\nText continues..." becomes two paragraphs
+# The (.*?) before {: .center} needs to be non-greedy and stop at newline
+content = content.gsub(/<p>([^\n]+)\n\{:\s*\.center\s*\}\s*\n?([\s\S]*?)<\/p>/m) do |match|
+  before_text = $1.strip
+  after_text = $2.strip
+  if after_text.empty?
+    "<p class=\"center\">#{before_text}</p>"
+  else
+    "<p class=\"center\">#{before_text}</p>\n\n<p>#{after_text}</p>"
+  end
+end
+
+# Handle {: .center} at the end of a paragraph (simpler case)
+content = content.gsub(/<p>([^<]*?)\s*\{:\s*\.center\s*\}<\/p>/) do |match|
+  text = $1.strip
+  "<p class=\"center\">#{text}</p>"
+end
+
+# Clean up any leading <br> tags in paragraphs (artifact from trailing spaces)
+content = content.gsub(/<p([^>]*)>\s*<br\s*\/?>\s*/i, '<p\1>')
+
+# Added by Claude Code - Process image URLs
+# For local preview: use relative paths that work with Middleman server
+# For Buttondown (--send): use absolute production URLs
 base_url = 'https://andreamignolo.com'
 content = content.gsub(/src=["'](?!http)([^"']+)["']/) do |match|
   relative_path = $1
@@ -130,7 +164,14 @@ content = content.gsub(/src=["'](?!http)([^"']+)["']/) do |match|
   relative_path = relative_path.sub(/^\//, '')
   # Add /images/ prefix if not already there
   relative_path = "images/#{relative_path}" unless relative_path.start_with?('images/')
-  "src=\"#{base_url}/#{relative_path}\""
+
+  if send_to_buttondown
+    # Absolute URL for email delivery
+    "src=\"#{base_url}/#{relative_path}\""
+  else
+    # Relative path for local preview (works with Middleman server)
+    "src=\"/#{relative_path}\""
+  end
 end
 
 # Generate web URL for this newsletter

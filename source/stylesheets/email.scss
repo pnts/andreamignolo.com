@@ -52,7 +52,7 @@ body {
 
 // Main content container (600px max width, centered)
 .email-container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   background-color: $bg-inner;
 }
@@ -129,6 +129,16 @@ a {
   text-decoration-color: $accent-color;
 }
 
+// Added by Claude Code - Footnote superscripts
+// Prevent superscripts from affecting line-height
+sup {
+  font-size: 12px;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.4em;
+}
+
 .content-section {
   font-size: 16px;
   color: $text-color;
@@ -160,6 +170,12 @@ a {
     margin-top: $spacing-tiny;
   }
 
+  // Added by Claude Code - Centered text (for section markers like "i.", "ii.", etc.)
+  .center {
+    text-align: center;
+    margin: $spacing-medium 0 $spacing-tiny 0;
+  }
+
   // Blockquotes
   blockquote {
     margin: $spacing-small 0;
@@ -176,6 +192,24 @@ a {
     width: 20%;
     background-color: #EEE;
     margin: $spacing-medium 0;
+  }
+
+  // Added by Claude Code - Footnotes section styling
+  .footnotes {
+    font-size: 14px;
+    line-height: 20px;
+    color: $text-color;
+    opacity: 0.8;
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+      margin: 0 0 $spacing-tiny 0;
+    }
+
+    li {
+      margin-bottom: $spacing-tiny;
+    }
   }
 
   // Lists

@@ -31,6 +31,10 @@ a {
   }
 }
 
+.center {
+  text-align: center;
+}
+
 figcaption {
   font-size: 1rem;
   text-align: center;
@@ -196,7 +200,13 @@ input[type=submit] {
       background-color: #efebe2;
     }
     blockquote {
-      font-size: 1.2rem;
+      font-size: 2rem;
+      font-style: italic;
+      line-height: 3rem;
+      padding-right: 1rem;
+      padding-left: 2rem;
+      border-left: 3px solid #CCC;
+      margin-left: 1rem;
     }
     li {
       margin-bottom: 1rem;
@@ -204,5 +214,15 @@ input[type=submit] {
   }
   .figcaption + p {
     margin-top: 3rem;
+  }
+
+  .footnotes {
+    border-top: 1px solid #CCC;
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    ol {
+      padding-left: 1.5rem;
+    }
   }
 }

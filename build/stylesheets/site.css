@@ -108,11 +108,12 @@ h1, h2, h3 {
 h1 {
   font-family: "WarblerBanner";
   font-style: italic;
-  font-size: 5.6rem;
+  font-size: 5rem;
   line-height: 7rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   font-weight: 400;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 1rem; }
 
 h2 {
   font-size: 2rem;
@@ -558,6 +559,9 @@ a {
   a:hover {
     color: #F62A00; }
 
+.center {
+  text-align: center; }
+
 figcaption {
   font-size: 1rem;
   text-align: center; }
@@ -673,8 +677,21 @@ input[type=submit] {
       font-weight: 400;
       background-color: #efebe2; }
     .the-becoming article blockquote {
-      font-size: 1.2rem; }
+      font-size: 2rem;
+      font-style: italic;
+      line-height: 3rem;
+      padding-right: 1rem;
+      padding-left: 2rem;
+      border-left: 3px solid #CCC;
+      margin-left: 1rem; }
     .the-becoming article li {
       margin-bottom: 1rem; }
   .the-becoming .figcaption + p {
     margin-top: 3rem; }
+  .the-becoming .footnotes {
+    border-top: 1px solid #CCC;
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.3rem; }
+    .the-becoming .footnotes ol {
+      padding-left: 1.5rem; }
