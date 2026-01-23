@@ -49,6 +49,44 @@ This is a simple personal bio site built with Middleman, a Ruby-based static sit
 ### Content Management
 The main bio content is in `source/index.html.erb` with a "last updated" date that should be manually updated when content changes.
 
+## Email Newsletter System ("the becoming")
+
+A Ruby script generates HTML email previews from markdown files and can send them to Buttondown.
+
+### Key Files
+- `scripts/preview_email.rb` - Main script for generating previews and sending to Buttondown
+- `source/layouts/the-becoming-email.erb` - HTML email template (table-based for email client compatibility)
+- `source/stylesheets/email.scss` - Email-specific styles
+- `source/email_preview.html` - Generated preview output (not committed)
+- `source/the-becoming/*.html.md` - Newsletter content in markdown with frontmatter
+
+### Usage
+```bash
+# Preview locally (presents menu to select a newsletter)
+ruby scripts/preview_email.rb
+
+# Preview a specific file
+ruby scripts/preview_email.rb source/the-becoming/newsletter-name.html.md
+
+# Send to Buttondown as draft
+ruby scripts/preview_email.rb --send
+```
+
+### How It Works
+1. Parses frontmatter (title, issue, date) from markdown files
+2. Converts markdown to HTML using Redcarpet (with footnotes enabled)
+3. Processes Kramdown-style attributes (`{: .figcaption}`, `{: .center}`)
+4. Compiles SCSS from `email.scss`
+5. Applies the email template (`the-becoming-email.erb`)
+6. Inlines CSS using Premailer for email client compatibility
+7. Outputs to `email_preview.html` or sends to Buttondown API
+
+### Important Notes
+- Images use relative paths for local preview, absolute URLs (`https://andreamignolo.com/...`) for Buttondown
+- Images must be deployed to the live site before they'll work in sent emails
+- Requires `.env` file with `BUTTONDOWN_API_KEY` for sending to Buttondown
+- The `--send` flag creates a **draft** in Buttondown (does not send to subscribers)
+
 ## Code Editing Guidelines
 
 When making edits to HTML, CSS, or JavaScript files, always add a comment indicating that the change was made by Claude Code. Use appropriate comment syntax for each file type:
