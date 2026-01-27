@@ -2,7 +2,7 @@
 title: "Things I Have Learned About Listening #01"
 date: January 21st, 2026
 issue: 6
-description: A few things I have learned about listening from Krishanamurti, David Bohm, and Gemme Corradi Fiumara.
+description: A few things I have learned about listening from Krishanamurti, David Bohm, and Gemma Corradi Fiumara.
 published: true
 ---
 
